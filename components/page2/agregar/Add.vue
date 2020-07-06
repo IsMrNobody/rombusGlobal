@@ -47,27 +47,27 @@ export default {
 <style scoped>
 .delete {
   z-index: 2;
-  position: absolute;
   margin-left: 6px;
+  position: absolute;
   border: 0.6px solid;
 }
 .boton {
-  color: white;
   height: 40px;
   border: none;
+  color: white;
   background-color: red;
   
 }
 .boton::after {
-    position: absolute;
-    right: -18px;
     top: 1px;
-    content: "";
     width: 0; 
     height: 0; 
+    content: "";
+    right: -18px;
+    position: absolute;
+    border-left: 19px solid #e80000;
     border-top: 19px solid transparent;
     border-bottom: 19px solid transparent;
-    border-left: 19px solid #e80000;
 }
 
 </style>

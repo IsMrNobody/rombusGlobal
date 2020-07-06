@@ -58,8 +58,8 @@ export default {
 <style scoped>
 .delete {
   z-index: 2;
-  position: absolute;
   margin-left: 6px;
+  position: absolute;
   border: 0.6px solid;
 }
 .boton {

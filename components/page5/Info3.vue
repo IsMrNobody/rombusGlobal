@@ -50,10 +50,11 @@
                 <h5>Con quien prefieres resolver el trabajo:</h5>
                 <button class="btn carta shadow tam">
                     <div class="card-title">                    
-                    <img src="/icons/user.svg" height="35" alt="foto" class="mr-auto my-1">
+                    <img src="/icons/map.svg" height="30" alt="foto" class="mr-auto my-1">
                     <i class="fa fa-car"></i>
-                    <h5>Un profesional individual</h5>
-                    <h5>Nivel Experto</h5>
+                    <h5>
+                        Rombus Ciudad
+                        cercano a mi ubicación</h5>
                     </div>
                 </button>
             </div>
@@ -63,13 +64,34 @@
                 <button class="btn carta shadow tam">
                     <div class="card-title">                    
                         <img 
-                            src="/icons/file.svg" 
-                            height="35" alt="foto" 
+                            src="/icons/question.svg" 
+                            height="30" alt="foto" 
                             class="mr-auto my-1">
-                        <h5>Proyecto unico,</h5>
-                        <h5>comienza y termina una sola vez</h5>
+                        <h5>No lo sé aún, lo definiré luego</h5>
                     </div>
                 </button>
+            </div>
+        </div>
+
+        <!-- datos de usuario -->
+        <div class="col-8 mt-4">
+            <h5>Datos de contacto y ubicación del proyecto:</h5>
+            <div class="form-row">
+                <div class="col-md-6">
+                    <p>Juan Carlos Pepe</p>
+                </div>
+
+                <div class="col-md-6">
+                    <p>juanpepe@empresa.com</p>
+                </div>
+
+                <div class="col-md-6">
+                    <p>541112345678</p>
+                </div>
+
+                <div class="col-md-6">
+                    <p>Buenos Aires, Argentina</p>
+                </div>
             </div>
         </div>
 
@@ -81,7 +103,7 @@
                 type="number" 
                 class="form-control form-control-lg" 
                 id="Input" 
-                placeholder="$ 1.500">
+                placeholder="$ 1.900">
             </div>
         </div>
 

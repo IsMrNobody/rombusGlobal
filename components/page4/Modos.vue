@@ -49,15 +49,6 @@
         <Tipo3 v-if="mostrar3" />
         <Tipo4 v-if="mostrar4" />
 
-        <!-- boton continuar -->
-        <div class="d-flex justify-content-between mb-5">
-            <nuxt-link to="/page3">
-                <button type="button" class="my-5 btn btn-link" style="color: #00a2c2;">Atras</button>
-            </nuxt-link>
-            <nuxt-link to="/page5">
-                <button type="button" class="button btn btn-outline-dark my-5 btn-lg" style="background-color: #00a2c2;">¡Terminado! Ir a Resúmen</button>
-            </nuxt-link>
-        </div>
     </div>
 </template>
 
@@ -113,21 +104,10 @@ export default {
     height: 200px;
 }
 .carta:focus{
-    background: #00a2c2;
     color: white;
+    background: #00a2c2;
 }
 p {
     font-size: 18px;
-}
-.button {
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 24px;
-  margin: 4px 2px;
-  cursor: pointer;
-  width: 360px;
 }
 </style>

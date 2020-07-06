@@ -135,13 +135,13 @@ p {
 }
 .button {
   border: none;
+  width: 300px;
   color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
   font-size: 24px;
   margin: 4px 2px;
   cursor: pointer;
-  width: 300px;
+  text-align: center;
+  padding: 16px 32px;
+  text-decoration: none;
 }
 </style>

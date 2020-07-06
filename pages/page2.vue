@@ -4,7 +4,7 @@
         
         <!-- pasos -->
         <div 
-            class="col-md-2 mt-5" 
+            class="col-md-3 mt-5" 
             style="color: #00a2c2;"
         >         
             <h4>

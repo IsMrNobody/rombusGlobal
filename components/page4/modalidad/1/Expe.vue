@@ -63,8 +63,8 @@ data: () => ({
 
 <style scoped>
 .carta:focus{
-    background: #00a2c2;;
     color: white;
+    background: #00a2c2;
 }
 p {
     font-size: 18px;

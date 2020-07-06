@@ -35,9 +35,7 @@
                     </div>
                 </div>
 
-                <Plazo v-if="mostrar" />
-                
-                <Rango v-if="mostrar" />
+                <Plazo v-if="mostrar" />                
                 
         </div>
     </div>
@@ -45,11 +43,9 @@
 
 <script>
 import Plazo from '@/components/page4/modalidad/2/Plazo'
-import Rango from '@/components/page4/modalidad/Rango'
 export default {
     components: {
-        Plazo,
-        Rango
+        Plazo
     },
     data: () => ({
             mostrar: false
@@ -65,11 +61,10 @@ export default {
 <style scoped>
 .tam{    
     height: 180px;
-    /* max-width: 300px; */
 }
 .carta:focus{
-    background: #00a2c2;
     color: white;
+    background: #00a2c2;
 }
 p {
     font-size: 18px;

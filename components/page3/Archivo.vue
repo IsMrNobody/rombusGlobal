@@ -2,7 +2,7 @@
     <div>
         <div class="mt-5">
           <h2>Agrega información valiosa</h2>
-          <P>Puedes adjuntar un archivo o imagen que describa tu proyecto o un ejemplo de referencia</P>
+          <P>Puedes adjuntar un archivo o imagen que describa tu proyecto o un ejemplo de referencia.</P>
 
           <!-- Agregar archivo -->
           <div 
@@ -81,14 +81,14 @@
 <style>
 .button {
   border: none;
+  width: 300px;
   color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
   font-size: 24px;
   margin: 4px 2px;
   cursor: pointer;
-  width: 300px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
 }
 .borde {
   border-width: 6px;

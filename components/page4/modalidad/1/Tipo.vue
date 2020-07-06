@@ -1,5 +1,5 @@
 <template>
-    <div class="row">
+    <div class="">
         <div class="col">
             <div class="mt-5 col-6">
                 <p class="size">Tipo de proyecto:</p>
@@ -36,7 +36,15 @@
                 </div>
 
                 <Rango />
-                
+
+                <div class="d-flex justify-content-between mb-5">
+                    <nuxt-link to="/page3">
+                        <button type="button" class="my-5 btn btn-link" style="color: #00a2c2;">Atras</button>
+                    </nuxt-link>
+                    <nuxt-link to="/page5">
+                        <button type="button" class="button btn btn-outline-dark my-5 btn-lg" style="background-color: #00a2c2;">¡Terminado! Ir a Resúmen</button>
+                    </nuxt-link>
+                </div>                
         </div>
     </div>
 </template>
@@ -52,16 +60,26 @@ export default {
 <style scoped>
 .tam{    
     height: 180px;
-    /* max-width: 300px; */
 }
 .carta:focus{
-    background: #00a2c2;
     color: white;
+    background: #00a2c2;
 }
 p {
     font-size: 18px;
 }
 .size {
     font-size: 24px;
+}
+.button {
+  border: none;
+  width: 360px;
+  color: white;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-align: center;
+  padding: 16px 32px;
+  text-decoration: none;
 }
 </style>

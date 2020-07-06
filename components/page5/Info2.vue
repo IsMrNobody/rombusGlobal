@@ -50,10 +50,9 @@
                 <h5>Con quien prefieres resolver el trabajo:</h5>
                 <button class="btn carta shadow tam">
                     <div class="card-title">                    
-                    <img src="/icons/user.svg" height="35" alt="foto" class="mr-auto my-1">
+                    <img src="/icons/users.svg" height="35" alt="foto" class="mr-auto my-1">
                     <i class="fa fa-car"></i>
-                    <h5>Un profesional individual</h5>
-                    <h5>Nivel Experto</h5>
+                    <h5>Project Manager y equipo</h5>
                     </div>
                 </button>
             </div>
@@ -63,11 +62,11 @@
                 <button class="btn carta shadow tam">
                     <div class="card-title">                    
                         <img 
-                            src="/icons/file.svg" 
+                            src="/icons/calendar.svg" 
                             height="35" alt="foto" 
                             class="mr-auto my-1">
-                        <h5>Proyecto unico,</h5>
-                        <h5>comienza y termina una sola vez</h5>
+                        <h5>Proyecto recurrente</h5>
+                        <h5>Plazo estimado 8 a 30 días</h5>
                     </div>
                 </button>
             </div>

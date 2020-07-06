@@ -40,7 +40,6 @@
   width: 300px;
   color: white;
   font-size: 24px;
-  /* margin: 4px 2px; */
   cursor: pointer;
   padding: 16px 32px;
   text-align: center;
